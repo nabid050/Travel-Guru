@@ -1,0 +1,40 @@
+const flights = [
+  {
+    id: 1,
+    airline: "Emirates",
+    from: "Dhaka",
+    to: "Dubai",
+    departure: "08:30 AM",
+    arrival: "12:15 PM",
+    duration: "4h 45m",
+    price: 68500,
+    baggage: "30 KG",
+    refundable: true,
+  },
+  {
+    id: 2,
+    airline: "Qatar Airways",
+    from: "Dhaka",
+    to: "London",
+    departure: "10:45 AM",
+    arrival: "07:10 PM",
+    duration: "11h 25m",
+    price: 125000,
+    baggage: "35 KG",
+    refundable: true,
+  },
+  {
+    id: 3,
+    airline: "Singapore Airlines",
+    from: "Dhaka",
+    to: "Singapore",
+    departure: "02:00 PM",
+    arrival: "08:05 PM",
+    duration: "4h 05m",
+    price: 52000,
+    baggage: "30 KG",
+    refundable: false,
+  },
+];
+
+export default flights;
